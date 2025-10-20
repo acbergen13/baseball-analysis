@@ -1,8 +1,7 @@
-🏆 MLB MVP Predictor (2004–2024)
-📘 Overview
+# 🏆 Baseball Analysis
+## 📘 Overview
 
-This project uses machine learning to predict Major League Baseball (MLB) MVP winners based on player performance statistics from 2004 to 2024.
+This is an WOP passion project to better develop my data analysis skills. Here, I will be using data science / ML techniques to help me solve and predict questions I have about baseball
 
-By combining batting and pitching data with MVP historical results, the model learns the statistical profile of MVP-caliber players and estimates the probability that any player in a given season could win the MVP award.
-
-We use PyTorch to build and train a neural network that outputs an MVP probability score for each player.
+### MLB-MVP-Predictors
+In this notebook, we will be using certain stats such `WAR, wRC+, OPS, HR, RBI, etc.` to help us predict the winner of the 2025 MVP race. To do this, we will use the batting data from `2004-2024` to help us train and test a MLP model. 
